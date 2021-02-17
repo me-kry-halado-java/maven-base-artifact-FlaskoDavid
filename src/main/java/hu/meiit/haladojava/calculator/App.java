@@ -10,14 +10,14 @@ public class App
 {
     private static final String errorResponse="-";
     private static String[] parse(String expression){
-        String[] returnvalue = expression.split(" ");
-        return returnvalue;
+
+        return expression.split(" ");
     }
     private static String getExpressionFromStandardInput(){
         System.out.println("kerem az adatokat");
         Scanner scanner = new Scanner(System.in);
-        String expression = scanner.nextLine();
-        return expression;
+
+        return scanner.nextLine();
     }
 
     private static void assertExpression(String[] parts) throws Exception {
@@ -28,7 +28,7 @@ public class App
     private static Expression getAsExpression(String[] parts){
         return new Expression(
                 Integer.parseInt(parts[0]),
-                Integer.parseInt(parts[1]),parts[2]);
+                Integer.parseInt(parts[2]),parts[1]);
     }
 
     private static String executeExpression(Expression expression){
@@ -49,7 +49,7 @@ public class App
         try {
 
             String expressionFromStandardInput =getExpressionFromStandardInput();
-            String[] parts= parse(getExpressionFromStandardInput());
+            String[] parts= parse(expressionFromStandardInput);
             assertExpression(parts);
             Expression expression = getAsExpression(parts);
             result=executeExpression(expression);
