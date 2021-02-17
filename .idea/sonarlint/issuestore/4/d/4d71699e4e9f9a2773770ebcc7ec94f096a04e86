@@ -1,0 +1,15 @@
+
+b	java:S112"FDefine and throw a dedicated exception instead of using a generic one.(É¬Á–8×±‚û.
+g	java:S112"FDefine and throw a dedicated exception instead of using a generic one.(ÇÃ©Ëúÿÿÿÿ8×±‚û.
+…
+java:S1488"cImmediately return this expression instead of assigning it to the temporary variable "returnvalue".(³¨€úÿÿÿÿ8×±‚û.
+„
+java:S1488"bImmediately return this expression instead of assigning it to the temporary variable "expression".(“Òã÷şÿÿÿÿ8×±‚û.
+u	java:S115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(şÙÃB8×±‚û.
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(¨–•“ıÿÿÿÿ8×±‚û.
+q
+java:S18543"ORemove this useless assignment to local variable "expressionFromStandardInput".(Û˜¾şÿÿÿÿ8×±‚û.
+E	java:S108:")Either remove or fill this block of code.(±•å•8×±‚û.
+Z	java:S106;"9Replace this use of System.out or System.err by a logger.(®ıáëûÿÿÿÿ8×±‚û.
+b
+java:S14813"@Remove this unused "expressionFromStandardInput" local variable.(Û˜¾şÿÿÿÿ8×±‚û.
