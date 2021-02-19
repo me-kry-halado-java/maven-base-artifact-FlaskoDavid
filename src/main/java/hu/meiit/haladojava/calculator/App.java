@@ -16,11 +16,8 @@ public class App
     private static String getExpressionFromStandardInput(){
         System.out.println("kerem az adatokat");
         Scanner scanner = new Scanner(System.in);
-        String lanc="";
-        for (int i =0; i<3;i++){
-            lanc +=scanner.nextLine();
-        }
-        return lanc;
+
+        return scanner.nextLine();
     }
 
     private static void assertExpression(String[] parts) throws Exception {
