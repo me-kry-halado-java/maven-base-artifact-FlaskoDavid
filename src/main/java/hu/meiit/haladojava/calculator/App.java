@@ -34,19 +34,28 @@ public class App
     private static String executeExpression(Expression expression){
         String result=errorResponse;
         Executor executor=new Executor();
-        if (expression.getOperator().equals("+")){
-            result = String.valueOf(executor.add(expression.getOperand1()
+        String valto=expression.getOperator();
+        switch (valto){
+            case "+": result = String.valueOf(executor.add(expression.getOperand1()
                     , expression.getOperand2()));
-        }else if (expression.getOperator().equals("-")){
-            result = String.valueOf(executor.sub(expression.getOperand1()
+                break;
+            case "-": result = String.valueOf(executor.sub(expression.getOperand1()
                     ,expression.getOperand2()));
+                break;
+            case "*": result=String.valueOf(executor.mult(expression.getOperand1()
+                    ,expression.getOperand2()));
+                break;
+            case "/": result=String.valueOf(executor.div(expression.getOperand1()
+                    ,expression.getOperand2()));
+                break;
         }
+        if (result==null) {
+            result="-";}
         return result;
     }
     public static void main( String[] args )
     {
         String result="-";
-        System.out.println("kerem az adatokat");
         try {
 
             String expressionFromStandardInput =getExpressionFromStandardInput();
