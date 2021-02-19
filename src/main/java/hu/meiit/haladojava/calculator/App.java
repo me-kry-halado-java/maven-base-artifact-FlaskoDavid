@@ -14,7 +14,7 @@ public class App
         return expression.split(" ");
     }
     private static String getExpressionFromStandardInput(){
-        System.out.println("kerem az adatokat");
+
         Scanner scanner = new Scanner(System.in);
 
         return scanner.nextLine();
@@ -46,6 +46,7 @@ public class App
     public static void main( String[] args )
     {
         String result="-";
+        System.out.println("kerem az adatokat");
         try {
 
             String expressionFromStandardInput =getExpressionFromStandardInput();
