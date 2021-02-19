@@ -1,7 +1,7 @@
 
-g	java:S112"FDefine and throw a dedicated exception instead of using a generic one.(ÇÃ©Ëúÿÿÿÿ8ßŠ·†û.
-Z	java:S106;"9Replace this use of System.out or System.err by a logger.(®ıáëûÿÿÿÿ8×±‚û.
-b	java:S112"FDefine and throw a dedicated exception instead of using a generic one.(É¬Á–8ßŠ·†û.
 Z	java:S106"9Replace this use of System.out or System.err by a logger.(¨–•“ıÿÿÿÿ8ßŠ·†û.
+g	java:S112"FDefine and throw a dedicated exception instead of using a generic one.(ÇÃ©Ëúÿÿÿÿ8ßŠ·†û.
 u	java:S115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(şÙÃB8ßŠ·†û.
+Z	java:S106;"9Replace this use of System.out or System.err by a logger.(®ıáëûÿÿÿÿ8×±‚û.
 E	java:S108:")Either remove or fill this block of code.(±•å•8×±‚û.
+b	java:S112"FDefine and throw a dedicated exception instead of using a generic one.(É¬Á–8ßŠ·†û.
