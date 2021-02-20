@@ -20,3 +20,5 @@ i
 9.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml,b\8\b8d96649614bd84192f3496ef7d33bab1d1e5ec1
 T
 $target/maven-archiver/pom.properties,5\a\5acbe6c306dee4498a010b1ca2096853e29e16a4
+R
+".github/classroom/autograding.json,0\2\02845d47f9d695cb7409cbf4ccf6633c0f2f00d5
