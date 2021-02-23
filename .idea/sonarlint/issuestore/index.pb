@@ -22,3 +22,7 @@ T
 $target/maven-archiver/pom.properties,5\a\5acbe6c306dee4498a010b1ca2096853e29e16a4
 R
 ".github/classroom/autograding.json,0\2\02845d47f9d695cb7409cbf4ccf6633c0f2f00d5
+j
+:src/main/java/hu/meiit/haladojava/calculator/Function.java,b\2\b2e0501f1ea58e32be9f9afcbc942515ce46dd4b
+d
+4src/main/java/hu/meiit/haladojava/calculator/IO.java,3\d\3dd0377daf1f1102da9981650e5deb3b8b058588
