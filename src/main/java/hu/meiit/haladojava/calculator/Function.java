@@ -43,22 +43,26 @@ public class Function {
         String result=errorResponse;
         Executor executor=new Executor();
         String valto=expression.getOperator();
-        switch (valto){
-            case "+": result = String.valueOf(executor.add(expression.getOperand1()
-                    , expression.getOperand2()));
-                break;
-            case "-": result = String.valueOf(executor.sub(expression.getOperand1()
-                    ,expression.getOperand2()));
-                break;
-            case "*": result=String.valueOf(executor.mult(expression.getOperand1()
-                    ,expression.getOperand2()));
-                break;
-            case "/": result=String.valueOf(executor.div(expression.getOperand1()
-                    ,expression.getOperand2()));
-                break;
-        }
-        if (result==null) {
-            result="-";}
+        try {
+            switch (valto) {
+                case "+":
+                    result = String.valueOf(executor.add(expression.getOperand1()
+                            , expression.getOperand2()));
+                    break;
+                case "-":
+                    result = String.valueOf(executor.sub(expression.getOperand1()
+                            , expression.getOperand2()));
+                    break;
+                case "*":
+                    result = String.valueOf(executor.mult(expression.getOperand1()
+                            , expression.getOperand2()));
+                    break;
+                case "/":
+                    result = String.valueOf(executor.div(expression.getOperand1()
+                            , expression.getOperand2()));
+                    break;
+            }
+        }catch (Exception ex){result=errorResponse;}
         return result;
     }
 }

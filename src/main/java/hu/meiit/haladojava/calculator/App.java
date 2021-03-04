@@ -19,10 +19,10 @@ public class App
             IO.assertExpression(parts);
             Expression expression = Function.getAsExpression(parts);
             result=Function.executeExpression(expression);
-            IO.outTostOutpot(result);
+            IO.outputForStandardOutput(result);
 
         }catch (Exception ex){
-            IO.outTostOutpot(result);
+            IO.outputForStandardOutput(result);
         }
 
     }

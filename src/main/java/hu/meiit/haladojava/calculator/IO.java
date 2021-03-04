@@ -16,7 +16,7 @@ public class IO {
         }
     }
 
-    public static void outTostOutpot (String result){
+    public static void outputForStandardOutput (String result){
         System.out.println(result);
     }
 

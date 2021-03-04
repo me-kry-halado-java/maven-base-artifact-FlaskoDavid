@@ -12,9 +12,7 @@ public class Executor {
     }
     public double div(int operand1, int operand2){
         Double ret=null;
-        try {
            ret = (double)operand1/(double)operand2;
-        }catch (Exception ex){}
         return ret;
     }
 }
