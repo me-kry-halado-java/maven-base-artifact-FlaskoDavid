@@ -10,9 +10,13 @@ public class Executor {
     public double mult(int operand1, int operand2){
         return operand1*operand2;
     }
-    public double div(int operand1, int operand2){
+    public double div(int operand1, int operand2) throws Exception{
         Double ret=null;
-           ret = (double)operand1/(double)operand2;
+        if (operand2==0){
+            throw new ArithmeticException(" no dividing with null number");
+        }
+        ret = (double)operand1/(double)operand2;
+
         return ret;
     }
 }
